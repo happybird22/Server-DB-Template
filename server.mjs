@@ -16,5 +16,5 @@ app.use(express.json());
 
 // Listeners
 app.listen(PORT, () => {
-    console.log('Server ')
-})
+    console.log(`Server running on Port: ${PORT}`);
+  });
